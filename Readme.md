@@ -35,6 +35,7 @@ This is a simple MERN stack application that displays current prices of cryptocu
      MONG_URI=mongodb+srv://salceanu:f34mqJgy29B61Mm7@labsdatabase.5913czx.mongodb.net/?retryWrites=true&w=majority&appName=labsdatabase
      PORT=5000
      VITE_X_CG_DEMO_API_KEY=CG-1t8kdBZJMA1YUmpjF5nypF6R
+     BC_SERVER="https://mainnet.infura.io/v3/{your api key}"
      ```
 
 4. **Start the Server:**
@@ -64,6 +65,8 @@ crypto-trading-platform/
     ├── middleware/
     ├── models/
     ├── routes/
+    ├── services/
+    ├── validations/
     └── server.js
 ```
 
